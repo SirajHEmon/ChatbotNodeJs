@@ -9,12 +9,15 @@
 <body>
 <div class="container py-5">
     <div class="card">
-        <div class="card-body" id="chatbox" style="height: 400px; overflow-y: auto;">
+        <div class="card-body">
+            <div id="chatbox" style="height: 400px; overflow-y: auto;"></div>
+            
             <!-- Photo upload form is moved here -->
             <form id="uploadForm" class="mb-3" enctype="multipart/form-data" style="display:none;">
                 <input type="file" id="photoInput" name="photo" class="form-control">
                 <button type="submit" class="btn btn-success mt-2">Upload Photo</button>
             </form>
+
         </div>
     </div>
     <div class="mt-3">
